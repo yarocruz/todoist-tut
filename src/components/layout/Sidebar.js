@@ -29,7 +29,7 @@ function Sidebar () {
                 <span><FaChevronDown /></span>
                 <h2>Projects</h2>
             </div>
-            <div className="sidebar__projects">{showProjects && <Projects />}</div>
+            <ul className="sidebar__projects">{showProjects && <Projects />}</ul>
 
             {showProjects && <AddProject />}
         </div>

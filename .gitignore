@@ -18,7 +18,8 @@
 .env.test.local
 .env.production.local
 .idea
+.eslintcache
 
-npm-debug.log*
+npm-debug.log*quitxœ
 yarn-debug.log*
 yarn-error.log*
